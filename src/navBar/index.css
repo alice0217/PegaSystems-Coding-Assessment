@@ -1,0 +1,46 @@
+.nav {
+    width: 5rem;
+    height: 100vh;
+    background-color: #302c2c;
+    color: white;
+    transition: width 0.5s;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.nav-expanded {
+    width: 20rem;
+    transition: width 0.5s;
+}
+
+.nav-logo-name {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    font-weight: 500;
+    margin-left: 1.5rem;
+    padding-top: 20px;
+}
+
+.nav-name {
+    margin-left: 1.5rem;
+    padding-top: 20px;
+}
+
+.nav-bottom-container {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #9f9f9f;
+    margin-top: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-top-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; 
+}

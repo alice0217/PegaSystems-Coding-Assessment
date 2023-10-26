@@ -1,0 +1,27 @@
+.nav-item-container {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-item-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-item-icon {
+    height: 25px;
+    width: 25px;
+    margin-left: 1.5rem;
+}
+
+.nav-item-name {
+    margin-left: 2rem;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
